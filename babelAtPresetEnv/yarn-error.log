@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/rainnut/.nvm/versions/node/v12.16.1/bin/node /Users/rainnut/.yarn/bin/yarn.js add browerslist -D
+
+PATH: 
+  /Users/rainnut/.rvm/gems/ruby-2.5.3/bin:/Users/rainnut/.rvm/gems/ruby-2.5.3@global/bin:/Users/rainnut/.rvm/rubies/ruby-2.5.3/bin:./node_modules/.bin:/Applications/Google Chrome.app/Contents/MacOS:/Users/rainnut/.yarn/bin:/Users/rainnut/.config/yarn/global/node_modules/.bin:/Users/rainnut/.nvm/versions/node/v12.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/rainnut/.rvm/gems/ruby-2.5.3/bin:/Users/rainnut/.rvm/gems/ruby-2.5.3@global/bin:/Users/rainnut/.rvm/rubies/ruby-2.5.3/bin:node_modules/.bin:/Applications/Google Chrome.app/Contents/MacOS:/Users/rainnut/.yarn/bin:/Users/rainnut/.config/yarn/global/node_modules/.bin:/Users/rainnut/opt/anaconda3/bin:/Users/rainnut/opt/anaconda3/condabin:/Users/rainnut/.nvm/versions/node/v12.16.1/bin:/Users/rainnut/.rvm/bin:/Users/rainnut/.rvm/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/browerslist: Not found
+      at Request.params.callback [as _callback] (/Users/rainnut/.yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/rainnut/.yarn/lib/cli.js:140749:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/Users/rainnut/.yarn/lib/cli.js:141721:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/Users/rainnut/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "babelatpresetenv",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
